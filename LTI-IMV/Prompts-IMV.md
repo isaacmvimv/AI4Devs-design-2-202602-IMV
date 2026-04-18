@@ -19,6 +19,7 @@ Genera un primer bloque con la definición de cada una de las User Stories, dond
 - Los "Acceptance Criteria" (AC) deben de incluir el "happy path" y sugerir escenarios de "edge-cases".
 - Detectar algunos escenarios de error habituales.
 - Añadir una estimación de complejidad (S/M/L)
+- Clasificar según su importancia para el MVP siguiendo el método de priorización MoSCoW (Must have, Should have, Could Have, Won't Have).
 
 Una vez elaborada la lista de las US, quiero que valides la consistencia entre las que estén relacionadas.
 
@@ -26,7 +27,7 @@ Una vez elaborada la lista de las US, quiero que valides la consistencia entre l
 
 **Prompt 02 - BackLog**
 
-Ahora añade un segundo bloque donde se diseñe su Backlog, se listen las US sugiriendo su orden de priorización para el MVP, y se tengan en cuenta criterios importantes como pueden ser los siguientes:
+Ahora añade un segundo bloque donde se diseñe su Backlog, se listen las US sugiriendo su orden de priorización para el MVP (MoSCoW), y se tengan en cuenta criterios importantes como pueden ser los siguientes:
 - Valor para el Negocio.
 - Urgencia.
 - Dependencias.
@@ -34,7 +35,9 @@ Ahora añade un segundo bloque donde se diseñe su Backlog, se listen las US sug
 - Riesgos y obstáculos potenciales.
 - Madurez tecnológica.
 
-A modo de resumen, añade un tercer bloque con una matriz en formato tabla que resuma el backlog con las siguientes columnas: Item, Impacto usuario / negocio, Urgencia, Complejidad, Riesgos / dependencias.
+A modo de resumen, añade un tercer bloque con una matriz en formato tabla que resuma el backlog ordenado incluyendo las siguientes columnas: Item, Impacto usuario / negocio, Urgencia, Complejidad, Riesgos / dependencias, MoSCoW.
+
+Añade un roadmap en formato Mermaid con el Backlog priorizado por Sprints. Cada conjunto de US debe aportar funcionalidades completas.
 
 ---
 
@@ -46,7 +49,4 @@ Tu objetivo es analizar cada User Story del Backlog y dividirla en sus respectiv
 Los tickets deben de estar bien estructurados y tener un nombre breve, conciso, claro y descriptivo. 
 Cada ticket debe de contener toda la información necesaria para llevarse a cabo su desarrollo, así como incluir las partes relevantes de la US a la que pertenecen, como pueden ser los "Acceptance Criteria", "happy path", "edge-cases", etc.
 También debe de quedar muy en cada ticket a que US pertenece.
-Los tickets, al igual que se ha hecho con las User Stories, deben tener una estimación de complejidad (S/M/L) y unidades (puntos de historia).
-
-Añade un último bloque en el fichero de MarkDown con esta información y muestra los tickets ordenados según el orden definido en el Backlog, Sprints y US.
-Añade también una tabla parecida a "Resumen del roadmap por sprint" pero añadiendo además el desglose de tickets de cada US.
+Los tickets, al igual que se ha hecho con las User Stories, deben tener una estimación de complejidad (S/M/L) y unidades (puntos de historia) y clasificación MoSCoW.
